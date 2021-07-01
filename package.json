@@ -1,0 +1,17 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "- 登录接口 /api/user/login  - blog列表/api/blog/list  - blog详情/api/blog/detail  - blog新增/api/blog/new  - blog更新/api/blog/update  - blog删除/api/blog/del",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "redis": "^3.1.2"
+  }
+}
